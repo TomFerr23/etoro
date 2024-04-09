@@ -1,0 +1,156 @@
+.footer {
+    padding: 20px;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+
+.footer__upper, .footer__lower {
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+    width: 100%; 
+}
+
+.footer__questions h3, .footer__questions button {
+    margin-bottom: 10px; 
+}
+
+.footer__questions  h3 {
+    font-size: 40px !important; 
+}
+
+.footer__questions button {
+    background-color: var(--default-color); 
+    color: var(--primary-button-color); 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer__link a {
+  color: inherit; 
+  text-decoration: none; 
+
+}
+
+.footer__info {
+    display: flex;
+    gap: 20px; 
+}
+
+.info__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.info__item li {
+    font-size: 16px;
+}
+
+.info__item h5, .info__item ul {
+    margin-bottom: 10px; 
+}
+
+.info__item ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.footer__lower {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px; 
+}
+
+.footer__logo img {
+    width: 200px; 
+}   
+
+.footer__logo, .footer__link, .footer__socials {
+    display: flex;
+    align-items: center;
+}
+
+.footer__socials span {
+    margin: 0 5px; 
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc; 
+    width: 80%; 
+    margin: 20px auto; 
+}
+
+
+.footer {
+    // Existing styles remain unchanged
+  
+    // Mobile Optimization
+    @media (max-width: 768px) {
+      padding: 20px 10px; 
+      margin-top: 40px; 
+  
+      .footer__upper, .footer__lower {
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+      }
+  
+      .footer__questions h3 {
+        font-size: 24px; 
+      }
+  
+      .footer__questions button {
+        padding: 8px 16px; 
+      }
+  
+      .footer__info {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 10px; 
+      }
+  
+      .info__item {
+        text-align: center; 
+      }
+
+      .info__item h5 {
+        font-size: 20px; 
+      }
+
+      .info__item li {
+        font-size: 18px; 
+      }
+  
+      .footer__logo img {
+        width: 150px; 
+      }
+  
+      .footer__socials {
+        justify-content: center; 
+        gap: 10px; 
+        margin-top: 20px; 
+  
+        dotlottie-player {
+          width: 60px; 
+          height: auto; 
+        }
+      }
+  
+      hr {
+        width: 100%; 
+        margin: 20px 0; 
+      }
+    }
+  }
+  
+

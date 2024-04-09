@@ -1,0 +1,38 @@
+.featured-section {
+  text-align: center; 
+  padding: 2rem; 
+
+  h2 {
+    margin-bottom: 1.5rem; 
+  }
+
+  .partner-logos {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 2rem; 
+
+    img {
+      width: auto; 
+      height: auto; 
+      max-height: 100px; 
+    }
+  }
+}
+
+// Mobile-specific adjustments
+@media (max-width: 768px) {
+  .featured-section .partner-logos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around; 
+      gap: 1rem; 
+
+      img {
+          flex: 0 1 calc(50% - 20px); 
+          max-width: 100%; 
+          height: auto; 
+      }
+  }
+}
+

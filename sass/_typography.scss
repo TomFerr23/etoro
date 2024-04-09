@@ -1,0 +1,87 @@
+$font-size-base: 1rem; // typically 16px
+$font-size-lg: 1.25rem;
+$font-size-sm: .875rem;
+
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+
+// Define @font-face for Gilroy fonts
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-BlackItalic.woff2') format('woff2'),
+         url('../assets/fonts/Gilroy-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-Bold.woff2') format('woff2'),
+         url('../assets/fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-Light.woff2') format('woff2'),
+         url('../assets/fonts/Gilroy-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-LightItalic.woff2') format('woff2'),
+         url('../assets/fonts/Gilroy-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-Medium.woff2') format('woff2'),
+         url('../assets/fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-Regular.woff2') format('woff2'),
+         url('../assets/fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-RegularItalic.woff2') format('woff2'),
+         url('../assets/fonts/Gilroy-RegularItalic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-Thin.woff2') format('woff2'),
+         url('../assets/fonts/Gilroy-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px; // Default font size
+    
+    @media (min-width: 768px) { // Tablets and above
+      font-size: 18px;
+    }
+  
+    @media (min-width: 1024px) { // Desktops and above
+      font-size: 20px;
+    }
+  }
+  
+  

@@ -1,0 +1,23 @@
+@import 'colors';
+@import 'typography';
+@import 'navbar';
+@import 'switch';
+@import 'hero';
+@import 'registration';
+@import 'accessible';
+@import 'featured';
+@import 'getstarted';
+@import 'footer';
+
+html, body {
+  overflow-x: hidden;
+}
+
+
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-body-color);
+  }
+  
+  

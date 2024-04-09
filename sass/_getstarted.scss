@@ -1,0 +1,69 @@
+.get-started-section {
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    padding: 2rem; 
+}
+
+.get-started-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: auto;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    z-index: 1; 
+    border-radius: 16px; 
+}
+
+/* button */
+.btn--primary {
+    background-color: var(--default-color); 
+    color: #FFFFFF;
+    font-weight: 500; 
+    font-size: 24px;
+    width: 500px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 24px;
+}
+
+
+
+
+.get-started-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  
+    @media (max-width: 768px) {
+      .get-started-image {
+        width: 80%; 
+        top: 50px; 
+        left: 50%; 
+        transform: translateX(-50%); 
+      }
+  
+      // Adjusting the Lottie player size directly for mobile
+      dotlottie-player {
+        width: 80%; 
+        max-width: 450px; 
+        height: auto; 
+      }
+
+      .btn--primary {
+        width: 450px;
+        border-radius: 8px;
+      }
+    }
+  }
+  

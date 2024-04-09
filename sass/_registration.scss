@@ -1,0 +1,50 @@
+.registration-guide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    background-color: var(--how-it-works-color);
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.step img {
+    width: 60px; /* Adjust size of icons */
+    height: auto;
+}
+
+.step .account {
+    width:48px; /* Adjust size of icons */
+    height: auto;
+}
+
+.step .deposit {
+    width: 68px; /* Adjust size of icons */
+    height: auto;
+}
+
+.step h3 {
+    margin: 0;
+}
+
+.step p {
+    margin: 5px 0 0 0;
+}
+
+@media (max-width: 768px) {
+    .step {
+        flex-direction: column;
+        text-align: center;
+        align-items: center; /* Ensure alignment is centered for mobile */
+    }
+
+    .step img {
+        margin-bottom: 10px; /* Adds space between the icon and the text in mobile view */
+    }
+}

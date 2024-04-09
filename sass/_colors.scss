@@ -1,0 +1,36 @@
+// sass/_colors.scss
+
+// Light Theme Colors
+:root {
+    --bg-color: #FBFCFE;
+    --surface-color: #F5F7FC;
+    --default-color: #2322CF;
+    --darkened-default-color: #1F1EB9;
+    --hover-focused-color: #4E31B6;
+    --hover-outline-color: rgba(97, 61, 228, 0.15);
+    --text-on-primary-color: #2322CF;
+    --primary-body-color: #111112;
+    --border-divider-color: #CDD5E9;
+    --primary-button-color: #FFFFFF;
+    --secondary-button-color: #101010;
+    --how-it-works-color: #F5F5F5;
+  }
+  
+  // Dark Theme Colors
+  [data-theme='dark'] {
+    --bg-color: #1D2939;
+    --surface-color: #101828;
+    --primary-surface-color: rgba(97, 61, 228, 0.3); // Added for dark theme
+    --default-color: #2322CF;
+    --hover-focused-color: #4E31B6;
+    --hover-outline-color: rgba(97, 61, 228, 0.15);
+    --focused-outline-color: rgba(97, 61, 228, 0.3); // Added for dark theme
+    --text-on-primary-color: #FFFFFF;
+    --primary-body-color: #FFFFFF;
+    --secondary-body-color: #9CA3AF; // Added for dark theme
+    --border-divider-color: #475467;
+    --primary-button-color: #FFFFFF;
+    --secondary-button-color: #f4fafe;
+    --how-it-works-color: #233143;
+  }
+  
